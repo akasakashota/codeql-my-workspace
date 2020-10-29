@@ -1,0 +1,5 @@
+name: codeql-js-akasakashota-tests
+version: 0.0.1
+extractor: javascript
+libraryPathDependencies: codeql-js-akasakashota
+tests: .

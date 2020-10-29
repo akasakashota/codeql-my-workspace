@@ -1,0 +1,144 @@
+nodes
+| examples/ng-component-single.vue:2:8:2:19 | v-html=var |
+| examples/ng-component-single.vue:2:8:2:19 | v-html=var |
+| examples/ng-component-single.vue:3:8:3:18 | v-html=\u5909\u6570 |
+| examples/ng-component-single.vue:3:8:3:18 | v-html=\u5909\u6570 |
+| examples/ng-component-single.vue:4:8:4:20 | v-html=var2 |
+| examples/ng-component-single.vue:4:8:4:20 | v-html=var2 |
+| examples/ng-component-single.vue:5:8:5:23 | v-html=varTemp |
+| examples/ng-component-single.vue:5:8:5:23 | v-html=varTemp |
+| examples/ng-component-single.vue:6:8:6:19 | v-html=mod |
+| examples/ng-component-single.vue:6:8:6:19 | v-html=mod |
+| examples/ng-component-single.vue:7:8:7:20 | v-html=mod2 |
+| examples/ng-component-single.vue:7:8:7:20 | v-html=mod2 |
+| examples/ng-component-single.vue:8:8:8:23 | v-html=varComp |
+| examples/ng-component-single.vue:8:8:8:23 | v-html=varComp |
+| examples/ng-component-single.vue:9:8:9:24 | v-html=varComp2 |
+| examples/ng-component-single.vue:9:8:9:24 | v-html=varComp2 |
+| examples/ng-component-single.vue:10:8:10:23 | v-html=funcVar |
+| examples/ng-component-single.vue:10:8:10:23 | v-html=funcVar |
+| examples/ng-component-single.vue:10:8:10:23 | v-html=funcVar |
+| examples/ng-component-single.vue:11:8:11:21 | v-html=hello |
+| examples/ng-component-single.vue:11:8:11:21 | v-html=hello |
+| examples/ng-component-single.vue:14:9:14:32 | v |
+| examples/ng-component-single.vue:14:13:14:32 | window.location.hash |
+| examples/ng-component-single.vue:14:13:14:32 | window.location.hash |
+| examples/ng-component-single.vue:15:7:15:12 | v2 |
+| examples/ng-component-single.vue:15:12:15:12 | v |
+| examples/ng-component-single.vue:16:9:16:45 | str |
+| examples/ng-component-single.vue:16:15:16:45 | `hash:  ... .hash}` |
+| examples/ng-component-single.vue:16:15:16:45 | `hash:  ... .hash}` |
+| examples/ng-component-single.vue:17:9:17:29 | mod |
+| examples/ng-component-single.vue:17:15:17:29 | require('test') |
+| examples/ng-component-single.vue:17:15:17:29 | require('test') |
+| examples/ng-component-single.vue:18:9:18:64 | x2 |
+| examples/ng-component-single.vue:18:14:18:30 | null \|\| undefined |
+| examples/ng-component-single.vue:18:14:18:54 | null \|\| ... on.hash |
+| examples/ng-component-single.vue:18:14:18:64 | null \|\| ...  "hoge" |
+| examples/ng-component-single.vue:18:22:18:30 | undefined |
+| examples/ng-component-single.vue:18:22:18:30 | undefined |
+| examples/ng-component-single.vue:18:35:18:54 | window.location.hash |
+| examples/ng-component-single.vue:18:35:18:54 | window.location.hash |
+| examples/ng-component-single.vue:22:14:22:14 | v |
+| examples/ng-component-single.vue:23:15:23:16 | v2 |
+| examples/ng-component-single.vue:24:15:24:26 | undefinedVar |
+| examples/ng-component-single.vue:24:15:24:26 | undefinedVar |
+| examples/ng-component-single.vue:25:18:25:20 | str |
+| examples/ng-component-single.vue:25:18:25:20 | str |
+| examples/ng-component-single.vue:26:14:26:16 | mod |
+| examples/ng-component-single.vue:27:15:27:31 | require('test')() |
+| examples/ng-component-single.vue:27:15:27:31 | require('test')() |
+| examples/ng-component-single.vue:28:18:28:37 | window.location.hash |
+| examples/ng-component-single.vue:28:18:28:37 | window.location.hash |
+| examples/ng-component-single.vue:28:18:28:47 | window. ...  "hoge" |
+| examples/ng-component-single.vue:29:19:29:20 | x2 |
+| examples/ng-component-single.vue:30:18:30:55 | (()=>{r ... sh;})() |
+| examples/ng-component-single.vue:30:18:30:55 | (()=>{r ... sh;})() |
+| examples/ng-component-single.vue:30:18:30:55 | (()=>{r ... sh;})() |
+| examples/ng-component-single.vue:30:31:30:50 | window.location.hash |
+| examples/ng-component-single.vue:30:31:30:50 | window.location.hash |
+| examples/ng-component-single.vue:35:16:35:17 | v2 |
+| examples/ng-component.js:1:7:1:30 | v |
+| examples/ng-component.js:1:11:1:30 | window.location.hash |
+| examples/ng-component.js:1:11:1:30 | window.location.hash |
+| examples/ng-component.js:4:39:4:39 | v |
+| examples/ng-component.vue:2:8:2:19 | v-html=var |
+| examples/ng-component.vue:2:8:2:19 | v-html=var |
+edges
+| examples/ng-component-single.vue:14:9:14:32 | v | examples/ng-component-single.vue:15:12:15:12 | v |
+| examples/ng-component-single.vue:14:9:14:32 | v | examples/ng-component-single.vue:22:14:22:14 | v |
+| examples/ng-component-single.vue:14:13:14:32 | window.location.hash | examples/ng-component-single.vue:14:9:14:32 | v |
+| examples/ng-component-single.vue:14:13:14:32 | window.location.hash | examples/ng-component-single.vue:14:9:14:32 | v |
+| examples/ng-component-single.vue:15:7:15:12 | v2 | examples/ng-component-single.vue:23:15:23:16 | v2 |
+| examples/ng-component-single.vue:15:7:15:12 | v2 | examples/ng-component-single.vue:35:16:35:17 | v2 |
+| examples/ng-component-single.vue:15:12:15:12 | v | examples/ng-component-single.vue:15:7:15:12 | v2 |
+| examples/ng-component-single.vue:16:9:16:45 | str | examples/ng-component-single.vue:25:18:25:20 | str |
+| examples/ng-component-single.vue:16:15:16:45 | `hash:  ... .hash}` | examples/ng-component-single.vue:16:9:16:45 | str |
+| examples/ng-component-single.vue:16:15:16:45 | `hash:  ... .hash}` | examples/ng-component-single.vue:16:9:16:45 | str |
+| examples/ng-component-single.vue:17:9:17:29 | mod | examples/ng-component-single.vue:26:14:26:16 | mod |
+| examples/ng-component-single.vue:17:15:17:29 | require('test') | examples/ng-component-single.vue:17:9:17:29 | mod |
+| examples/ng-component-single.vue:17:15:17:29 | require('test') | examples/ng-component-single.vue:17:9:17:29 | mod |
+| examples/ng-component-single.vue:18:9:18:64 | x2 | examples/ng-component-single.vue:29:19:29:20 | x2 |
+| examples/ng-component-single.vue:18:14:18:30 | null \|\| undefined | examples/ng-component-single.vue:18:14:18:54 | null \|\| ... on.hash |
+| examples/ng-component-single.vue:18:14:18:54 | null \|\| ... on.hash | examples/ng-component-single.vue:18:14:18:64 | null \|\| ...  "hoge" |
+| examples/ng-component-single.vue:18:14:18:64 | null \|\| ...  "hoge" | examples/ng-component-single.vue:18:9:18:64 | x2 |
+| examples/ng-component-single.vue:18:22:18:30 | undefined | examples/ng-component-single.vue:18:14:18:30 | null \|\| undefined |
+| examples/ng-component-single.vue:18:22:18:30 | undefined | examples/ng-component-single.vue:18:14:18:30 | null \|\| undefined |
+| examples/ng-component-single.vue:18:35:18:54 | window.location.hash | examples/ng-component-single.vue:18:14:18:54 | null \|\| ... on.hash |
+| examples/ng-component-single.vue:18:35:18:54 | window.location.hash | examples/ng-component-single.vue:18:14:18:54 | null \|\| ... on.hash |
+| examples/ng-component-single.vue:22:14:22:14 | v | examples/ng-component-single.vue:2:8:2:19 | v-html=var |
+| examples/ng-component-single.vue:22:14:22:14 | v | examples/ng-component-single.vue:2:8:2:19 | v-html=var |
+| examples/ng-component-single.vue:23:15:23:16 | v2 | examples/ng-component-single.vue:3:8:3:18 | v-html=\u5909\u6570 |
+| examples/ng-component-single.vue:23:15:23:16 | v2 | examples/ng-component-single.vue:3:8:3:18 | v-html=\u5909\u6570 |
+| examples/ng-component-single.vue:24:15:24:26 | undefinedVar | examples/ng-component-single.vue:4:8:4:20 | v-html=var2 |
+| examples/ng-component-single.vue:24:15:24:26 | undefinedVar | examples/ng-component-single.vue:4:8:4:20 | v-html=var2 |
+| examples/ng-component-single.vue:24:15:24:26 | undefinedVar | examples/ng-component-single.vue:4:8:4:20 | v-html=var2 |
+| examples/ng-component-single.vue:24:15:24:26 | undefinedVar | examples/ng-component-single.vue:4:8:4:20 | v-html=var2 |
+| examples/ng-component-single.vue:25:18:25:20 | str | examples/ng-component-single.vue:5:8:5:23 | v-html=varTemp |
+| examples/ng-component-single.vue:25:18:25:20 | str | examples/ng-component-single.vue:5:8:5:23 | v-html=varTemp |
+| examples/ng-component-single.vue:25:18:25:20 | str | examples/ng-component-single.vue:5:8:5:23 | v-html=varTemp |
+| examples/ng-component-single.vue:25:18:25:20 | str | examples/ng-component-single.vue:5:8:5:23 | v-html=varTemp |
+| examples/ng-component-single.vue:26:14:26:16 | mod | examples/ng-component-single.vue:6:8:6:19 | v-html=mod |
+| examples/ng-component-single.vue:26:14:26:16 | mod | examples/ng-component-single.vue:6:8:6:19 | v-html=mod |
+| examples/ng-component-single.vue:27:15:27:31 | require('test')() | examples/ng-component-single.vue:7:8:7:20 | v-html=mod2 |
+| examples/ng-component-single.vue:27:15:27:31 | require('test')() | examples/ng-component-single.vue:7:8:7:20 | v-html=mod2 |
+| examples/ng-component-single.vue:27:15:27:31 | require('test')() | examples/ng-component-single.vue:7:8:7:20 | v-html=mod2 |
+| examples/ng-component-single.vue:27:15:27:31 | require('test')() | examples/ng-component-single.vue:7:8:7:20 | v-html=mod2 |
+| examples/ng-component-single.vue:28:18:28:37 | window.location.hash | examples/ng-component-single.vue:28:18:28:47 | window. ...  "hoge" |
+| examples/ng-component-single.vue:28:18:28:37 | window.location.hash | examples/ng-component-single.vue:28:18:28:47 | window. ...  "hoge" |
+| examples/ng-component-single.vue:28:18:28:47 | window. ...  "hoge" | examples/ng-component-single.vue:8:8:8:23 | v-html=varComp |
+| examples/ng-component-single.vue:28:18:28:47 | window. ...  "hoge" | examples/ng-component-single.vue:8:8:8:23 | v-html=varComp |
+| examples/ng-component-single.vue:29:19:29:20 | x2 | examples/ng-component-single.vue:9:8:9:24 | v-html=varComp2 |
+| examples/ng-component-single.vue:29:19:29:20 | x2 | examples/ng-component-single.vue:9:8:9:24 | v-html=varComp2 |
+| examples/ng-component-single.vue:30:18:30:55 | (()=>{r ... sh;})() | examples/ng-component-single.vue:10:8:10:23 | v-html=funcVar |
+| examples/ng-component-single.vue:30:18:30:55 | (()=>{r ... sh;})() | examples/ng-component-single.vue:10:8:10:23 | v-html=funcVar |
+| examples/ng-component-single.vue:30:18:30:55 | (()=>{r ... sh;})() | examples/ng-component-single.vue:10:8:10:23 | v-html=funcVar |
+| examples/ng-component-single.vue:30:18:30:55 | (()=>{r ... sh;})() | examples/ng-component-single.vue:10:8:10:23 | v-html=funcVar |
+| examples/ng-component-single.vue:30:18:30:55 | (()=>{r ... sh;})() | examples/ng-component-single.vue:10:8:10:23 | v-html=funcVar |
+| examples/ng-component-single.vue:30:18:30:55 | (()=>{r ... sh;})() | examples/ng-component-single.vue:10:8:10:23 | v-html=funcVar |
+| examples/ng-component-single.vue:30:31:30:50 | window.location.hash | examples/ng-component-single.vue:30:18:30:55 | (()=>{r ... sh;})() |
+| examples/ng-component-single.vue:30:31:30:50 | window.location.hash | examples/ng-component-single.vue:30:18:30:55 | (()=>{r ... sh;})() |
+| examples/ng-component-single.vue:30:31:30:50 | window.location.hash | examples/ng-component-single.vue:30:18:30:55 | (()=>{r ... sh;})() |
+| examples/ng-component-single.vue:30:31:30:50 | window.location.hash | examples/ng-component-single.vue:30:18:30:55 | (()=>{r ... sh;})() |
+| examples/ng-component-single.vue:35:16:35:17 | v2 | examples/ng-component-single.vue:11:8:11:21 | v-html=hello |
+| examples/ng-component-single.vue:35:16:35:17 | v2 | examples/ng-component-single.vue:11:8:11:21 | v-html=hello |
+| examples/ng-component.js:1:7:1:30 | v | examples/ng-component.js:4:39:4:39 | v |
+| examples/ng-component.js:1:11:1:30 | window.location.hash | examples/ng-component.js:1:7:1:30 | v |
+| examples/ng-component.js:1:11:1:30 | window.location.hash | examples/ng-component.js:1:7:1:30 | v |
+| examples/ng-component.js:4:39:4:39 | v | examples/ng-component.vue:2:8:2:19 | v-html=var |
+| examples/ng-component.js:4:39:4:39 | v | examples/ng-component.vue:2:8:2:19 | v-html=var |
+#select
+| examples/ng-component-single.vue:2:8:2:19 | v-html=var | examples/ng-component-single.vue:14:13:14:32 | window.location.hash | examples/ng-component-single.vue:2:8:2:19 | v-html=var | Potential XSS vulnerability due to use v-html directive. |
+| examples/ng-component-single.vue:3:8:3:18 | v-html=\u5909\u6570 | examples/ng-component-single.vue:14:13:14:32 | window.location.hash | examples/ng-component-single.vue:3:8:3:18 | v-html=\u5909\u6570 | Potential XSS vulnerability due to use v-html directive. |
+| examples/ng-component-single.vue:4:8:4:20 | v-html=var2 | examples/ng-component-single.vue:24:15:24:26 | undefinedVar | examples/ng-component-single.vue:4:8:4:20 | v-html=var2 | Potential XSS vulnerability due to use v-html directive. |
+| examples/ng-component-single.vue:5:8:5:23 | v-html=varTemp | examples/ng-component-single.vue:16:15:16:45 | `hash:  ... .hash}` | examples/ng-component-single.vue:5:8:5:23 | v-html=varTemp | Potential XSS vulnerability due to use v-html directive. |
+| examples/ng-component-single.vue:5:8:5:23 | v-html=varTemp | examples/ng-component-single.vue:25:18:25:20 | str | examples/ng-component-single.vue:5:8:5:23 | v-html=varTemp | Potential XSS vulnerability due to use v-html directive. |
+| examples/ng-component-single.vue:6:8:6:19 | v-html=mod | examples/ng-component-single.vue:17:15:17:29 | require('test') | examples/ng-component-single.vue:6:8:6:19 | v-html=mod | Potential XSS vulnerability due to use v-html directive. |
+| examples/ng-component-single.vue:7:8:7:20 | v-html=mod2 | examples/ng-component-single.vue:27:15:27:31 | require('test')() | examples/ng-component-single.vue:7:8:7:20 | v-html=mod2 | Potential XSS vulnerability due to use v-html directive. |
+| examples/ng-component-single.vue:8:8:8:23 | v-html=varComp | examples/ng-component-single.vue:28:18:28:37 | window.location.hash | examples/ng-component-single.vue:8:8:8:23 | v-html=varComp | Potential XSS vulnerability due to use v-html directive. |
+| examples/ng-component-single.vue:9:8:9:24 | v-html=varComp2 | examples/ng-component-single.vue:18:22:18:30 | undefined | examples/ng-component-single.vue:9:8:9:24 | v-html=varComp2 | Potential XSS vulnerability due to use v-html directive. |
+| examples/ng-component-single.vue:9:8:9:24 | v-html=varComp2 | examples/ng-component-single.vue:18:35:18:54 | window.location.hash | examples/ng-component-single.vue:9:8:9:24 | v-html=varComp2 | Potential XSS vulnerability due to use v-html directive. |
+| examples/ng-component-single.vue:10:8:10:23 | v-html=funcVar | examples/ng-component-single.vue:30:18:30:55 | (()=>{r ... sh;})() | examples/ng-component-single.vue:10:8:10:23 | v-html=funcVar | Potential XSS vulnerability due to use v-html directive. |
+| examples/ng-component-single.vue:10:8:10:23 | v-html=funcVar | examples/ng-component-single.vue:30:31:30:50 | window.location.hash | examples/ng-component-single.vue:10:8:10:23 | v-html=funcVar | Potential XSS vulnerability due to use v-html directive. |
+| examples/ng-component-single.vue:11:8:11:21 | v-html=hello | examples/ng-component-single.vue:14:13:14:32 | window.location.hash | examples/ng-component-single.vue:11:8:11:21 | v-html=hello | Potential XSS vulnerability due to use v-html directive. |
+| examples/ng-component.vue:2:8:2:19 | v-html=var | examples/ng-component.js:1:11:1:30 | window.location.hash | examples/ng-component.vue:2:8:2:19 | v-html=var | Potential XSS vulnerability due to use v-html directive. |
