@@ -1,3 +1,4 @@
 # CodeQL compilation caches
 .cache/
 *.testproj/
+*.code-workspace
