@@ -1,0 +1,52 @@
+<!DOCTYPE qhelp SYSTEM "qhelp.dtd">
+<qhelp>
+
+<overview>
+<p>
+v-html ディレクティブに変数をバインドしています。
+その変数が外部から制御可能な場合にXSS が発生する可能性があります。
+</p>
+<p>
+その変数が外部から制御不可能なものであるか、もしくは適切にエスケープ処理されているかを確認してください。
+</p>
+</overview>
+
+<recommendation>
+<p>
+v-html にバインドする値は、外部から制御不可能なものを利用するようにしてください。
+</p>
+</recommendation>
+
+<example>
+<sample src="examples/UseVHtml.vue" />
+</example>
+
+<references>
+<li>
+    Vuejs: <a href="https://jp.vuejs.org/v2/guide/security.html">セキュリティ</a>
+</li>
+<li>
+    OWASP:
+    <a href="https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html">XSS
+        (Cross Site Scripting) Prevention Cheat Sheet</a>.
+</li>
+<li>
+    OWASP
+    <a href="https://www.owasp.org/index.php/DOM_Based_XSS">DOM Based XSS</a>.
+</li>
+<li>
+    OWASP
+    <a href="https://www.owasp.org/index.php/Types_of_Cross-Site_Scripting">Types of Cross-Site
+        Scripting</a>.
+</li>
+<li>
+    Wikipedia: <a href="http://en.wikipedia.org/wiki/Cross-site_scripting">Cross-site scripting</a>.
+</li>
+<li>
+    Common Weakness Enumeration: <a href="https://cwe.mitre.org/data/definitions/79.html">CWE-79</a>.
+</li>
+<li>
+    Common Weakness Enumeration: <a href="https://cwe.mitre.org/data/definitions/116.html">CWE-116</a>.
+</li>
+</references>
+</qhelp>

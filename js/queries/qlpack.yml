@@ -1,0 +1,5 @@
+name: codeql-js-akasakashota
+version: 0.0.1
+suites: my
+extractor: javascript
+libraryPathDependencies: codeql-javascript
